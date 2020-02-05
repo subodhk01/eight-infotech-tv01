@@ -1,0 +1,116 @@
+body {
+    width: 99vw;
+
+}
+.header-alt{
+    background-color: green !important;
+}
+.sidenav {
+    height: 100%; /* 100% Full-height */
+    width: 0; /* 0 width - change this with JavaScript */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Stay on top */
+    top: 0; /* Stay at the top */
+    right: 0;
+    background-color: #111; /* Black*/
+    overflow-x: hidden; /* Disable horizontal scroll */
+    padding-top: 60px; /* Place content 60px from the top */
+    transition: 0.5s; /* 0.5 second transition effect to slide in the sidenav */
+}
+.sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+}
+.sidenav a:hover {
+    color: #f1f1f1;
+    text-decoration: none;
+}
+.sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+@media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
+}
+
+.header-container {
+    
+    left: 0;
+    right: 0;
+    top: 0;
+}
+.width-zero{
+    
+}
+.image-container{
+    text-align: center;
+    margin: auto;
+    background: linear-gradient(to right, #eea2a2,   #57c6e1 , #b49fda, #7ac5d8);
+    background-size: 800% 800%;
+    animation: bg-moves 24s ease infinite;
+    font-size: 30vw;
+    font-weight: 900;
+    font-family: 'Montserrat','Open Sans Condensed';
+    text-shadow: 2px 2px 3px grey;
+    color: white;
+    box-shadow: 1px 1px 3px grey;
+    transition: all 0.3s;
+    height: 100vh
+}
+@keyframes bg-moves{
+    0%{background-position: 0% 50%}
+    50%{background-position: 100% 50%}
+    100%{background-position: 0% 50%}
+}
+.image-container-text{
+    font-size: 50px;
+    line-height: 10px;
+}
+.header-image{
+    height: 800px;
+}
+.landing-container{
+    background-color: #E6E6EA;
+    box-shadow: 1px 1px 3px grey;
+    transition: all 1s;
+    height: 100vh;
+}
+.menu-bar{
+    text-align: right;
+}
+.menu-bar img{
+    height: 40px;
+    margin-top: 8px;
+}    
+
+.col-md-7{
+    padding: 0px;
+}
+.col-md-5{
+    padding: 0px;
+}
+
+/* 
+#items{
+    width: 100vh;
+    height: 100vw;
+    overflow-x: hidden;
+    overflow-y: auto;
+    transform: rotate(-90deg) translateY(-100vh);
+    transform-origin: right top;
+    
+}
+.item {
+    height: 100vw;
+    width: 100vh;
+    transform: rotate(90deg);
+    transform-origin: right top;
+}*/
